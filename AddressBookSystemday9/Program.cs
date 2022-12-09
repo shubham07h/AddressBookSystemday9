@@ -1,2 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using AddressBookSystemday9;
+
+
+internal class Program
+{
+
+
+    static void Main(string[] args)
+    {
+        Addressbook book = new Addressbook();
+        book.CreateContact();
+
+
+
+    }
+}
